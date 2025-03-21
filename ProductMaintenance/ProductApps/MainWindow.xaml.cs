@@ -35,6 +35,7 @@ namespace ProductApps
                 cProduct.calTotalPayment();
                 totalPaymentTextBlock.Text = Convert.ToString(cProduct.TotalPayment);
                 totalChargeTextBlock.Text = Convert.ToString(cProduct.TotalCharge);
+                totalWrapTextBlock.Text = Convert.ToString(cProduct.TotalWrap);
             }
             catch (FormatException)
             {
